@@ -64,10 +64,11 @@ function Header() {
           </li>
         </ul>
       </nav>
-
-      <Button type="primary" className="login-button">
+      <Link to="/info-user">
+      <Button type="primary" className="header__login-button">
         Đăng nhập
       </Button>
+      </Link>
     </div>
   );
 }
